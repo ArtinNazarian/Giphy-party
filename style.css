@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(43, 40, 40);
+}
+
+h1,
+#search-btn,
+#remove-btn {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+#search-btn {
+  background-color: #2554c7;
+  border: 2px solid #2554c7;
+}
+
+#remove-btn {
+  background-color: #ff4500;
+  border: 2px solid #ff4500;
+}
+
+#search-btn,
+#remove-btn,
+#gif-name {
+  font-size: 18px;
+  display: inline-block;
+  padding: 3px;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+#gif-name {
+  width: 170px;
+}
+
+h1,
+form {
+  /*padding-bottom: 15px;
+  margin-left: 500px;*/
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+}
+
+h1 {
+  padding-bottom: -150px;
+}
+
+#gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.gif-div {
+  margin: 15px;
+  /*position: relative;*/
+}
+
+#main-div {
+  width: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
